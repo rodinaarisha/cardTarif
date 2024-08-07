@@ -1,0 +1,88 @@
+.tarif {
+    display: flex;
+    height: auto;
+    width: 300px;
+    margin: 5px;
+    
+}
+
+.tarif_body{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.tarif_part1{
+background-color: rgb(46, 129, 129);
+color: white;
+height: 50%;
+padding: 10px;
+padding-bottom: 20px;
+}
+.tarif_part2{
+    width: auto;
+}
+.tarif_title{
+    border-bottom: 2px solid white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.price, .currency_symbol,.monthly {
+    font-size: 14px; 
+}
+
+
+.title_speed{
+    background-color: hsl(0, 0%, 94%);
+    text-align: center;
+    color: grey;
+}
+
+.title_clarification{
+    background-color: rgba(172, 168, 168, 0.977);
+    height: auto;
+    text-align: center;
+    color: rgb(69, 65, 65);
+}
+
+
+.tarif_title{
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+.tarif_price_container {
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    text-align: center;
+
+}
+
+.currency_symbol {
+    font-size: 14px; 
+    position: absolute;
+    top: -10px; 
+}
+
+.price {
+    font-size: 24px;
+    
+}
+
+.monthly {
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+.title_speed{
+    background-color: hsl(0, 0%, 94%);
+    text-align: center;
+    color: grey;
+    padding: 20px;
+}
+
+.title_clarification{
+    padding: 20px;
+    text-align: center;
+    color: rgb(69, 65, 65);
+}
