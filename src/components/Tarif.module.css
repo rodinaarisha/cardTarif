@@ -86,3 +86,8 @@ padding-bottom: 20px;
     text-align: center;
     color: rgb(69, 65, 65);
 }
+
+
+.tarif.active{
+    transform: scale(1.15);
+}
